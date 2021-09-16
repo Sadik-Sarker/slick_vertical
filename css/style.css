@@ -1,0 +1,26 @@
+.slider{
+    margin: 50px 0;
+}
+.slick_main{
+    text-align: center;
+    background-color: rgba(127, 255, 212, .3);
+}
+.for_chain{
+    position: relative;
+}
+.for_chain::before{
+position: absolute;
+content: "";
+width: 1px;
+height: 350px;
+background: url(../images/border.png) repeat-y ;
+bottom: 0;
+left: 50%;
+z-index: -1;
+
+}
+.single_photo_wrapper img{
+    margin: 0 auto;
+    width: 180px;
+    padding: 12px 0;
+}
